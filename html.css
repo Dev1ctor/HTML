@@ -1,0 +1,107 @@
+
+
+body{
+    background-color: #678dcd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.sinais{
+   background-color: rgb(81, 90, 90);
+   box-shadow: 1px 1px 1px ;
+}
+
+.sinais > a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.emojis > img{
+    border-radius: 5px;
+}
+.img-emoji > img{
+    width:700px;
+    border-radius: 5px;
+}
+
+.imagens > img{
+    border-radius: 5px;
+}
+
+.sites a{
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rebeccapurple;
+
+}
+
+.videos > img{
+    border-radius:10px ;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+
+.video > video{
+    border-radius: 10px;
+    width: 950px;
+}
+
+.youtube > img{
+    display: inline-block;
+    width: 150px;
+    border-radius: 5px;
+    
+}
+
+.vimeo > img{
+    width: 150px;
+    border-radius: 5px;
+}
+
+.marcas{
+    background-color: rgb(78, 118, 156);
+    display: flex;
+    border-radius: 200px;
+    padding: 1px;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.marcas > img{
+    width: 50px;
+}
+
+.medya{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 40px;
+    font-size: 16px;
+
+}
+
+.dinamismo{
+    display: flex;
+    background-color: #5272a9;
+    justify-content: center;
+    border-radius: 10px;
+    margin:auto;
+    padding: 10px 10px;
+    
+
+}
+
+
+.imgs > img{
+    border-radius: 20px;
+}
