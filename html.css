@@ -30,6 +30,26 @@ body{
     border-radius: 5px;
 }
 
+.fundo{
+    display: inline-block;
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+}
+
+.fundo#q1{
+    background-color:darkcyan ;
+}
+
+.fundo#q2{
+background-image: linear-gradient(to bottom, red, blue);
+}
+
+.fundo#q3{
+background-image: url('/images/img-cap19/pattern001.png');
+}
+
+
 .sites a{
     font-size: 17px;
     font-weight: bold;
