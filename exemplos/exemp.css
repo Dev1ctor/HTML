@@ -1,6 +1,7 @@
 @charset "UTF-8";
 body{
-    font-family: sans-serif;
-    font-weight: normal;
+    background-image:url('https://gustavoguanabara.github.io/html-css/imagens/mascote.png');
+    background-repeat: no-repeat;
+    
+    
 }
-
