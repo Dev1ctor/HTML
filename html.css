@@ -58,6 +58,27 @@ background-image: url('/images/img-cap19/pattern001.png');
 
 }
 
+.comentario{
+    background-color: black;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.comentario > h3{
+margin: auto;
+text-align: center;
+color: red;
+font-weight: bold;
+
+}
+
+.comentario > p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
 .videos > img{
     border-radius:10px ;
 }
