@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(71, 73, 73);
+}
+
+#container{
+    position: relative;
+    background-color: rgb(16, 16, 165);
+    height: 500px;
+    width: 500px;
+}
+
+.caixa{
+    position: absolute;
+    background-color: yellow;
+    height: 100px;
+    padding: 100px;
+    width: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
