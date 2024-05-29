@@ -3,13 +3,14 @@ body{
 }
 
 #container{
+    margin: auto;
     position: relative;
     background-color: rgb(16, 16, 165);
     height: 500px;
     width: 500px;
 }
 
-.caixa{
+.caixa{ 
     position: absolute;
     background-color: yellow;
     height: 100px;
@@ -19,3 +20,4 @@ body{
     top: 50%;
     transform: translate(-50%, -50%);
 }
+

@@ -368,7 +368,22 @@
 
                     <img src="exemplos/imagens/codigo-margin.png" alt="codigo margin">
                 
-                    <img src="exemplos/imagens/centralização-margin.png"  style="width: 700px; margin-top: 5px;" alt="centralização com {margin: auto;}">
+                    <img src="exemplos/imagens/centralização-margin.png"  style="width: 7P00px; margin-top: 5px;" alt="centralização com {margin: auto;}">
+
+                    <br>
+
+                    <p>Para podermos aplicar a centralização de caixas de uma maneira mais eficiente,vamos definir a posição que a caixa vai ocupar dentro de um container,veja:</p>
+
+                    <img src="exemplos/imagens/Codigo1-C.vertical.png" alt="exemplo de código(centralização vertical )">
+
+                    <br>
+
+                    <p>Simplesmente foi criado um container com um artigo dentro usando a <strong>class="caixa"</strong> sem nenhum conteúdo somente para podermos definir as configurações de centralização.Logo em seguida foi definido nas configurações do CSS duas configurações de posições,uma para o container <b>(position: relative;)</b> que costuma ser a padrão de definição como foi explicado no exemplo acima,e uma posição para a <b>class="caixa"</b> so que diferente do container foi definido uma <b>(position: absolute;)</b>.O  posicionamento absoluto permite que personalizamos a posição exata da caixa através de duas propriedades, <b>left</b> e <b>top</b> configurando por porcentagem como podemos ver na imagem abaixo.</p>
+
+                    <img src="exemplos/imagens/codigo-C.vertical.png " style="max-width: 600px;" alt="codigo centralização vertical">
+                    <img src="exemplos/imagens/resultado-C.vertical.png" style="max-width: 800px; height: 450px;" alt="resultado centralização vertical">
+
+                    <p>Quando é definido 50% geralmente deveria ficar centralizado porém tem um problema,o <b>left</b> define 50% a esquerda e para baixo enquanto o <b>top</b> define 50% para cima e para a direita!E para podermos concertar isso a gente usa a outra propriedade logo abaixo dela <b>transform: translate(-50%, -50%)</b> aonde valores negativos tendem a posicionar a caixa para esquerda e para cima,ou seja se o posicionamento da caixa esta com 50%,quer dizer que esta posicionado no centro a direita,convertendo esse valor com -50% usando a propriedade transform praticamente é resolvido o problema,e a caixa fica centralizada no meio da tela, como mostra o exemplo acima.</p>
                 </div>
                 <br>
 
