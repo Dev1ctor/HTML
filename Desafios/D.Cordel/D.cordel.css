@@ -23,8 +23,7 @@ header > p{
     padding-bottom: 20px;
 }
 
-a{
-    color: white;
+header > a{
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
