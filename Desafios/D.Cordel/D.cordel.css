@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 :root{
     --font1:Verdana, Geneva, Tahoma, sans-serif;
     --font2:'Passion one' , 'cursive';
     --font3: 'sriracha', 'cursive';
+    --font4: 'Roboto Slab'
 }
 
 *{
@@ -19,7 +21,7 @@ html, body{
 }
 
 header{
-    color: white;
+    color: rgb(255, 255, 255);
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -63,26 +65,48 @@ font-size: 2.7vw;
 
 }
 
+section > p{
+    padding-bottom: 1em;
+}
+
 section.comum{
-    background-color: rgba(47, 79, 79, 0.61);
+    background-color: rgba(255, 255, 255, 0.61);
     color: black;
 }
 
 section.personalizada > p{
     display:inline-block;
-    background-color: rgba(0, 139, 139, 0.575);
+    background-color: rgba(95, 117, 117, 0.575);
     padding:5px;
+    text-shadow: 1px 1px 0px  black;
     
 }
 
 section.personalizada{
     background-color: black;
     color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.637);
+}
+
+section#img01{
+background-image: url("../D.Cordel/imagens/background001.jpg");
+background-position: right center;
+
+}
+
+section#img02{
+background-image: url("../D.cordel/imagens/background002.jpg");
+background-position:left center ;
+
 }
 
 footer{
     background-color: black;
     color: white;
+    font-family: var(--font4);
+    font-size: 0.6em;
     padding: 10px;
     text-align: center;
 }
