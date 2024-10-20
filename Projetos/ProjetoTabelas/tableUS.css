@@ -1,0 +1,46 @@
+*{
+    background-color:#101418 ;
+    color: white;
+   margin: auto;
+  
+}
+
+h1{
+    text-align: center;
+padding-top: 20px;
+}
+
+#tableUS > table, th{
+    background-color: rgb(0, 60, 255);
+    margin-TOP: 20px;
+}
+
+#tableUS > table{
+    font-family:Arial, Helvetica, sans-serif ;
+    border-collapse: collapse;
+    width: 600px;
+}
+
+#tableUS > tr, td, th{
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#tableUS > table, td{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+
